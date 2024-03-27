@@ -1,0 +1,48 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+form{
+  width: 350px;
+  text-align: center;
+  background-color: #0c4160;
+  margin-top: 180px;
+ /* background: transparent; */
+}
+a {
+  color: white;
+} 
+
+
+form :hover {
+  background:black;
+  box-shadow: 0 0 50px rgb(23, 93, 139);
+  border-radius: 8px;
+  padding: 2px; 
+  overflow: hidden;
+  
+}
+
+.input :hover{
+  background-color: white;
+}
+
+.panga{
+  transition: 1s ease-in;
+ }
+
+#login :hover{ background-color: white;}
